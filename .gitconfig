@@ -5,9 +5,12 @@
   co = checkout
   df = diff
   cl = clone
+  lg = log
 [user]
   name = Madhusudhan Srinivasa
   email = madhums8@gmail.com
+[format]
+  pretty = format:%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset
 [color]
   branch = auto
   diff = auto
@@ -29,5 +32,4 @@
   user = madhums
   token = 1a9c96d572c2ee246c07ea7f260604fe
 [core]
-  editor = subl
-  excludesfile = /home/madhu/.git-global-ignore
+  excludesfile = ~/.git-global-ignore

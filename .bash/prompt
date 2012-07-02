@@ -34,7 +34,7 @@ prompt_func() {
     then
         PS1="${COLOR_LIGHT_GRAY}\u - ${prompt}λ "
     else
-        PS1="\u - ${prompt}\[${COLOR_LIGHT_RED}\]λ \[${COLOR_NC}\]"
+        PS1="${COLOR_LIGHT_GRAY}\u - ${prompt}\[${COLOR_LIGHT_RED}\]λ \[${COLOR_NC}\]"
     fi
 }
 PROMPT_COMMAND=prompt_func

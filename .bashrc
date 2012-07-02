@@ -1,3 +1,5 @@
+export EDITOR=vim
+
 source ~/.bash/aliases
 source ~/.bash/paths
 
@@ -24,3 +26,5 @@ source ~/.bash/prompt
 
 # bash extras
 source ~/.bash/extras
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

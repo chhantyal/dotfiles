@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 showsshkey(){
   cat ~/.ssh/id_rsa.pub

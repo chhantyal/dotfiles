@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 COLOR_NC='\e[0m' # No Color
 COLOR_WHITE='\e[1;37m'
 COLOR_BLACK='\e[0;30m'
@@ -32,9 +34,9 @@ prompt_func() {
 
     if test $previous_return_value -eq 0
     then
-        PS1="${COLOR_LIGHT_GRAY}\u - ${prompt}λ "
+        PS1="${prompt}λ "
     else
-        PS1="${COLOR_LIGHT_GRAY}\u - ${prompt}\[${COLOR_LIGHT_RED}\]λ \[${COLOR_NC}\]"
+        PS1="${prompt}\[${COLOR_LIGHT_RED}\]λ \[${COLOR_NC}\]"
     fi
 }
 PROMPT_COMMAND=prompt_func

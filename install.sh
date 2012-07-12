@@ -23,5 +23,11 @@ do
 	fi
 done
 
+if [ ! -d ~/bin ]; then
+	mkdir ~/bin
+	cd ~/bin
+	wget https://github.com/rupa/z/raw/master/z.sh
+	chmod u+x z.sh
+fi
 
 source ~/.bash_profile

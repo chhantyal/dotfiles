@@ -6,13 +6,13 @@ I mostly work on node.js and ruby, so the dotfiles are inclined towards that.
 ```
 ~
 ├── bin (custom scripts)
-├── code (project code)
+├── code (all your projects' source)
 └── local (this is where i compile, build and keep all the libraries)
     ├── mongo
     └── node
 ```
 
-* If you don't have `vim` installed, then it would install my [.vim](http://github.com/madhums/.vim) settings.
+* If you don't have `~/.vim`, then it would install my [.vim](http://github.com/madhums/.vim) settings.
 * It will also install [z](http://github.com/rupa/z) (folder jumping)
 
 ## Installation

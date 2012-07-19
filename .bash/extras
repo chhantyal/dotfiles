@@ -41,3 +41,7 @@ opensshconfig(){
 openhostsfile(){
   sudo $EDITOR /etc/hosts
 }
+
+nvv() {
+  npm view $1 version
+}

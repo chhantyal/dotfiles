@@ -1,4 +1,5 @@
-export EDITOR=vim
+# export EDITOR=vim
+export EDITOR="$HOME/bin/mate -w"
 
 source ~/.bash/aliases
 source ~/.bash/paths

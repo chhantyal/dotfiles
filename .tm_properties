@@ -1,0 +1,15 @@
+# Display
+
+fontName          = "Menlo"
+fontSize          = 13
+fileBrowserGlob   = "{.tm_properties,.htaccess}"
+softWrap          = true
+showInvisibles 	  = true
+softTabs		      = true
+tabSize			      = 2
+wrapColumn        = 80
+
+# Projects
+
+projectDirectory  = "$CWD"
+windowTitle       = "$TM_DISPLAYNAME — ${CWD/^.*\///}"

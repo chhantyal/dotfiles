@@ -1,15 +1,25 @@
 # Display
-
 fontName          = "Menlo"
 fontSize          = 13
-fileBrowserGlob   = "{.tm_properties,.htaccess}"
 softWrap          = true
 showInvisibles 	  = true
 softTabs		      = true
 tabSize			      = 2
 wrapColumn        = 80
+showWrapColumn    = true
 
 # Projects
-
 projectDirectory  = "$CWD"
-windowTitle       = "$TM_DISPLAYNAME — ${CWD/^.*\///}"
+
+# Set the window title to [branchname] parentdir/filename (replacing /Users/<name> with ~)
+dir_ = "${TM_DIRECTORY/\/Users\/[^\/]+/~/}"
+branch_ = "${TM_SCM_BRANCH/(\w+)/${1:?[$1] :}/}"
+project_ = "${TM_DIRECTORY/(?:.*\/projects\/([^\/]+).*|.*\/\.virtualenvs\/[^\/]+\/(?:src|lib\/python\d\.\d\/site-packages)\/([^\/]+).*)?.*/${1:?($1) -- :${2:?($2) -- :}}/}"
+
+windowTitle = "$branch_$project_${dir_/.*?([^\/]*)$/${1:?$1/:}/}$TM_DISPLAYNAME"
+
+# Excludes
+myExtraExcludes = "node_modules"
+excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes}" 
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}" 
+excludeInBrowser      = "{$excludeInBrowser,$myExtraExcludes}" 

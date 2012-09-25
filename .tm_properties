@@ -2,11 +2,12 @@
 fontName          = "Menlo"
 fontSize          = 13
 softWrap          = true
-showInvisibles 	  = true
-softTabs		      = true
-tabSize			      = 2
+showInvisibles    = true
+softTabs          = true
+tabSize           = 2
 wrapColumn        = 80
 showWrapColumn    = true
+theme             = B80CD0D8-613C-46FD-9C06-A1201108BC2A
 
 # Projects
 projectDirectory  = "$CWD"
@@ -20,6 +21,6 @@ windowTitle = "$branch_$project_${dir_/.*?([^\/]*)$/${1:?$1/:}/}$TM_DISPLAYNAME"
 
 # Excludes
 myExtraExcludes = "node_modules"
-excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes}" 
-excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}" 
-excludeInBrowser      = "{$excludeInBrowser,$myExtraExcludes}" 
+excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}"
+excludeInBrowser      = "{$excludeInBrowser,$myExtraExcludes}"

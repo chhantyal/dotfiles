@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 
-# changing directory to code project
-function c { cd ~/code/$1; }
-
-# alternative to "rails" command to use templates
-function railsapp {
-  template=$1
-  appname=$2
-  shift 2
-  rails $appname -m http://github.com/ryanb/rails-templates/raw/master/$template.rb $@
+# install / update node.js
+function update-node {
+  version=$1
+  curl https://raw.github.com/gist/3791075 | sh -s $version
 }
 
 # misc

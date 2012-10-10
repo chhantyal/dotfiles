@@ -5,12 +5,11 @@
   co = checkout
   df = diff
   cl = clone
-  lg = log
+  lg = log --graph --format=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset'
+  lg2 = log --graph --all --format=format:'%C(bold yellow)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
 [user]
   name = Madhusudhan Srinivasa
   email = madhums8@gmail.com
-[format]
-  pretty = format:%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset
 [color]
   branch = auto
   diff = auto

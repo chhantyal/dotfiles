@@ -7,7 +7,6 @@ fi
 if [ ! -d ~/.vim ]; then
 	git --version 2>&1 >/dev/null # improvement by tripleee
 	GIT_IS_AVAILABLE=$?
-	echo "hahah"
 	if [ $GIT_IS_AVAILABLE -eq 0 ]; then
 		cd ~
 		git clone git://github.com/madhums/.vim.git

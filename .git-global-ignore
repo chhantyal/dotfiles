@@ -26,4 +26,5 @@ Thumbs.db
 .DS_Store
 
 # from sublime text editor
-package.sublime-workspace
+*.sublime-workspace
+*.sublime-project

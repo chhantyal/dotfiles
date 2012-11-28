@@ -32,6 +32,4 @@ source ~/.bash/extras
 # https://github.com/rupa/z/raw/master/z.sh
 source ~/bin/z.sh
 
-source ~/.osx
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

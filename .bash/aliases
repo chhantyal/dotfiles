@@ -9,6 +9,7 @@ function update-node {
 # misc
 alias reload='. ~/.bash_profile'
 alias m="mate"
+alias sub="subl -w -a"
 alias ns="npm start"
 alias ni="npm install"
 
@@ -18,14 +19,17 @@ alias ..='cd ..'
 # git
 alias ga="git add"
 alias gst="git status"
+alias gts="git status"
 alias gd="git diff"
 alias gp="git push"
 alias gl="git log --pretty='format:%Cgreen%h%Creset %an - %s' --graph"
 alias gco="git checkout"
 alias gba="git branch -a"
+alias gbl="git branch -l"
 alias gm="git merge --no-ff"
 alias gc="git commit -m"
 alias gca="git commit -am"
+alias gac="git commit -am"
 alias gb="git reset --soft"
 alias glg='git log --graph --pretty=format:"%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset" --date=relative'
 

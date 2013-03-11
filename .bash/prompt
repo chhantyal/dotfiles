@@ -38,6 +38,7 @@ prompt_func() {
     else
         PS1="${prompt}\[${COLOR_LIGHT_RED}\]λ \[${COLOR_NC}\]"
     fi
+    PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
 }
 PROMPT_COMMAND=prompt_func
 

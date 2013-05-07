@@ -4,5 +4,7 @@ export PATH=$PATH:$HOME/local/mongo/bin
 export PATH=$PATH:$HOME/local/redis/bin
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/local/node/bin
+export PATH=$PATH:$HOME/local/jscoverage/bin
+export PATH=$PATH:/usr/local/sbin
 
 export REDIS_DATA_DIR=/data/redis

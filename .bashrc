@@ -33,3 +33,7 @@ source ~/.bash/extras
 source ~/bin/z.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+set completion-ignore-case on
+set show-all-if-ambiguous on
+TAB: menu-complete

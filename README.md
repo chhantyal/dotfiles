@@ -1,6 +1,5 @@
 ## dotfiles
-So, these are my custom bash settings. It really speeds up my development process.
-I mostly work on node.js and ruby, so the dotfiles are inclined towards that.
+These are my custom bash settings forked from [@madhums](http://github.com/madhums). I mainly work with python and django, so it is inclined to python environment. It also inlcudes upstream node.js and ruby setting.
 
 **Folder structure**
 ```
@@ -16,7 +15,7 @@ I mostly work on node.js and ruby, so the dotfiles are inclined towards that.
 * It will also install [z](http://github.com/rupa/z) (folder jumping)
 
 ## Installation
-    $ git clone git://github.com/madhums/dotfiles.git
+    $ git clone git://github.com/neokya/dotfiles.git
     $ cd dotfiles
     $ ./install.sh
 

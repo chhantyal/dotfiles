@@ -10,3 +10,6 @@ fi
 
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/share/python/virtualenvwrapper.sh
+
+bind '"[A":history-search-backward'
+bind '"[B":history-search-forward'

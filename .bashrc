@@ -1,4 +1,4 @@
-export EDITOR=vim
+export EDITOR=nano
 # export EDITOR="$HOME/bin/mate -w"
 
 source ~/.bash/aliases

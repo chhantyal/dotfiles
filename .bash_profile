@@ -13,3 +13,9 @@ source /usr/local/share/python/virtualenvwrapper.sh
 
 bind '"[A":history-search-backward'
 bind '"[B":history-search-forward'
+
+# added by Anaconda 1.7.0 installer
+export PATH="/Users/neo/anaconda/bin:$PATH"
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

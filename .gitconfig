@@ -28,6 +28,6 @@
   changed = green
   untracked = cyan
 [github]
-  user = neokya
+  user = chhantyal
 [core]
   excludesfile = ~/.git-global-ignore

@@ -19,3 +19,5 @@ export PATH="/Users/neo/anaconda/bin:$PATH"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+PATH="/usr/local/Cellar/ruby/2.0.0-p195/bin:$PATH"
